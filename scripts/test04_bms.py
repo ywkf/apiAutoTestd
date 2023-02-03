@@ -63,7 +63,7 @@ class TestBms(TaskSet):
     def test04_logout(self):
         response = self.bms.api_bms_logout(self)
         try:
-            Tool.common_assert(response, message="操作成功")
+            Tool.common_assert(response, message="操作成功 ")
         except Exception as e:
             log.error(e)
             raise
