@@ -1,0 +1,7 @@
+2023-02-02 09:43:05,695 INFO [api_app.py(__init__:17)] - 正在初始化app登录url：http://localhost:9090/app/v1_0/authorizations
+2023-02-02 09:43:05,696 INFO [api_app.py(__init__:20)] - 正在初始化app查询频道文章url：http://localhost:9090/app/v1_0/articles
+2023-02-02 09:43:05,738 INFO [api_app.py(api_app_login:25)] - 正在调用app登录接口，请求数据为：{'mobile': 19933333333, 'code': 123456}
+2023-02-02 09:43:06,194 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2023-02-02 09:43:06,195 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-02-02 09:43:06,204 INFO [api_app.py(api_app_article:31)] - 正在调用app查询频道文章接口，请求数据为：{'channel_id': 7, 'timestamp': 1675302186, 'with_top': 1}
+2023-02-02 09:43:06,209 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法

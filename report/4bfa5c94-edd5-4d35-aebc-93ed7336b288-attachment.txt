@@ -1,0 +1,5 @@
+[32mINFO    [0m root:api_mp.py:15 正在初始化mp登录url为：http://localhost:9090/mp/v1_0/authorizations
+[32mINFO    [0m root:api_mp.py:18 正在初始化mp发布文章url为：http://localhost:9090/mp/v1_0/articles
+[32mINFO    [0m root:api_mp.py:23 正在调用mp登录接口，请求数据为：{'mobile': 19933333333, 'code': 123456}
+[32mINFO    [0m root:tool.py:14 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+[32mINFO    [0m root:tool.py:20 正在调用公共断言方法

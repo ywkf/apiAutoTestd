@@ -1,0 +1,6 @@
+[32mINFO    [0m root:api_mis.py:15 正在初始化mis登录url为：http://localhost:9090/mis/v1_0/authorizations
+[32mINFO    [0m root:api_mis.py:18 正在初始化mis查询文章url为：http://localhost:9090/mis/v1_0/articles
+[32mINFO    [0m root:api_mis.py:21 正在初始化mis审核文章url为：http://localhost:9090/mis/v1_0/articles
+[32mINFO    [0m root:api_mis.py:26 正在调用mis登录接口，请求数据为：{'account': 19933333333, 'password': 123456}
+[32mINFO    [0m root:tool.py:14 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+[32mINFO    [0m root:tool.py:20 正在调用公共断言方法

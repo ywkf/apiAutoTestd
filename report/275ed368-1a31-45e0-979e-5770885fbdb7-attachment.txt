@@ -1,0 +1,2 @@
+[32mINFO    [0m root:api_bms.py:47 正在调用bms登出接口，请求数据为：{}
+[32mINFO    [0m root:tool.py:20 正在调用公共断言方法

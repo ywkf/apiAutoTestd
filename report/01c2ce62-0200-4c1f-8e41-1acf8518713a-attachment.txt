@@ -1,0 +1,2 @@
+[32mINFO    [0m root:api_app.py:31 正在调用app查询频道文章接口，请求数据为：{'channel_id': 7, 'timestamp': 1675388851, 'with_top': 1}
+[32mINFO    [0m root:tool.py:20 正在调用公共断言方法

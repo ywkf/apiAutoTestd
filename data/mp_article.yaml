@@ -1,0 +1,5 @@
+mp_article001:
+  title: test_title
+  content: test_content
+  channel_id: 7
+  channel: 数据库

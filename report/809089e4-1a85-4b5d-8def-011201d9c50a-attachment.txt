@@ -1,0 +1,2 @@
+[32mINFO    [0m root:api_mp.py:29 正在调用mp发布文章接口，请求数据为：{'title': 'test_title', 'content': 'test_content', 'channel_id': 7, 'cover': {'type': 0, 'image': []}}
+[32mINFO    [0m root:tool.py:20 正在调用公共断言方法

@@ -1,0 +1,2 @@
+[32mINFO    [0m root:api_bms.py:41 正在调用bms获取用户信息接口，请求数据为：{'profile': 1}
+[32mINFO    [0m root:tool.py:20 正在调用公共断言方法

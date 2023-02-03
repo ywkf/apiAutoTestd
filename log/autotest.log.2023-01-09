@@ -1,0 +1,130 @@
+2023-01-09 11:59:34,239 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 12:00:06,472 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 12:01:43,144 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 12:04:45,057 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 12:07:13,350 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2023-01-09 12:07:13,351 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 12:07:13,368 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 14:36:53,298 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2023-01-09 14:36:53,299 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 14:36:53,306 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 16:26:42,924 INFO [api_mp.py(__init__:15)] - 正在初始化mp登录url为：http://localhost:9090/mp/v1_0/authorizations
+2023-01-09 16:26:42,925 INFO [api_mp.py(__init__:18)] - 正在初始化mp发布文章url为：http://localhost:9090/mp/v1_0/articles
+2023-01-09 16:26:42,927 INFO [api_mp.py(api_mp_login:23)] - 正在调用mp登录接口，请求数据：{'mobile': 19933333333, 'code': 123456}
+2023-01-09 16:26:42,935 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2023-01-09 16:26:42,936 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 16:26:42,954 INFO [api_mp.py(api_mp_article:29)] - 正在调用mp发布文章接口，请求数据：{'title': 'test_title', 'content': 'test_content', 'channel_id': 7, 'cover': {'type': 0, 'image': []}}
+2023-01-09 16:26:42,959 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 16:26:42,966 INFO [api_mis.py(__init__:15)] - 正在初始化mis登录url为：http://localhost:9090/mis/v1_0/authorizations
+2023-01-09 16:26:42,966 INFO [api_mis.py(__init__:18)] - 正在初始化mis查询文章url为：http://localhost:9090/mis/v1_0/articles
+2023-01-09 16:26:42,967 INFO [api_mis.py(__init__:21)] - 正在初始化mis审核文章url为：http://localhost:9090/mis/v1_0/articles
+2023-01-09 16:26:42,968 INFO [api_mis.py(api_mis_login:26)] - 正在调用mis登录接口，请求数据为：{'account': 19933333333, 'password': 123456}
+2023-01-09 16:26:42,972 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2023-01-09 16:26:42,972 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 16:26:42,976 INFO [api_mis.py(api_mis_search:32)] - 正在调用mis查询文章接口，请求数据为：{'title': 'test_title', 'channel': '数据库'}
+2023-01-09 16:26:42,980 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 16:26:42,983 INFO [api_mis.py(api_mis_audit:38)] - 正在调用mis审核文章接口，请求数据为：{'article_ids': [None], 'status': 2}
+2023-01-09 16:26:42,986 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 16:43:09,309 INFO [api_mp.py(__init__:15)] - 正在初始化mp登录url为：http://localhost:9090/mp/v1_0/authorizations
+2023-01-09 16:43:09,309 INFO [api_mp.py(__init__:18)] - 正在初始化mp发布文章url为：http://localhost:9090/mp/v1_0/articles
+2023-01-09 16:43:09,311 INFO [api_mp.py(api_mp_login:23)] - 正在调用mp登录接口，请求数据：{'mobile': 19933333333, 'code': 123456}
+2023-01-09 16:43:09,319 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2023-01-09 16:43:09,319 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 16:43:09,342 INFO [api_mp.py(api_mp_article:29)] - 正在调用mp发布文章接口，请求数据：{'title': 'test_title', 'content': 'test_content', 'channel_id': 7, 'cover': {'type': 0, 'image': []}}
+2023-01-09 16:43:09,349 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 16:43:09,357 INFO [api_mis.py(__init__:15)] - 正在初始化mis登录url为：http://localhost:9090/mis/v1_0/authorizations
+2023-01-09 16:43:09,357 INFO [api_mis.py(__init__:18)] - 正在初始化mis查询文章url为：http://localhost:9090/mis/v1_0/articles
+2023-01-09 16:43:09,358 INFO [api_mis.py(__init__:21)] - 正在初始化mis审核文章url为：http://localhost:9090/mis/v1_0/articles
+2023-01-09 16:43:09,359 INFO [api_mis.py(api_mis_login:26)] - 正在调用mis登录接口，请求数据为：{'account': 19933333333, 'password': 123456}
+2023-01-09 16:43:09,364 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2023-01-09 16:43:09,365 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 16:43:09,372 INFO [api_mis.py(api_mis_search:32)] - 正在调用mis查询文章接口，请求数据为：{'title': 'test_title', 'channel': '数据库'}
+2023-01-09 16:43:09,376 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 16:43:09,380 INFO [api_mis.py(api_mis_audit:38)] - 正在调用mis审核文章接口，请求数据为：{'article_ids': [None], 'status': 2}
+2023-01-09 16:43:09,383 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 16:43:09,387 INFO [api_app.py(__init__:17)] - 正在初始化app登录url：http://localhost:9090/app/v1_0/authorizations
+2023-01-09 16:43:09,388 INFO [api_app.py(__init__:20)] - 正在初始化app查询频道文章url：http://localhost:9090/app/v1_0/articles
+2023-01-09 16:43:09,388 INFO [api_app.py(api_app_login:25)] - 正在调用app登录接口，请求数据为：{'mobile': 19933333333, 'code': 123456}
+2023-01-09 16:43:09,391 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2023-01-09 16:43:09,392 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 16:43:09,396 INFO [api_app.py(api_app_article:31)] - 正在调用app查询频道文章接口，请求数据为：{'channel_id': 7, 'timestamp': 1673253789, 'with_top': 1}
+2023-01-09 16:43:09,398 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:14:26,459 INFO [api_mp.py(__init__:15)] - 正在初始化mp登录url为：http://localhost:9090/mp/v1_0/authorizations
+2023-01-09 17:14:26,460 INFO [api_mp.py(__init__:18)] - 正在初始化mp发布文章url为：http://localhost:9090/mp/v1_0/articles
+2023-01-09 17:14:26,462 INFO [api_mp.py(api_mp_login:23)] - 正在调用mp登录接口，请求数据为：{'mobile': 19933333333, 'code': 123456}
+2023-01-09 17:14:26,472 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2023-01-09 17:14:26,472 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:14:26,482 INFO [api_mp.py(api_mp_article:29)] - 正在调用mp发布文章接口，请求数据为：{'title': 'test_title', 'content': 'test_content', 'channel_id': 7, 'cover': {'type': 0, 'image': []}}
+2023-01-09 17:14:26,485 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:14:26,489 INFO [api_mis.py(__init__:15)] - 正在初始化mis登录url为：http://localhost:9090/mis/v1_0/authorizations
+2023-01-09 17:14:26,490 INFO [api_mis.py(__init__:18)] - 正在初始化mis查询文章url为：http://localhost:9090/mis/v1_0/articles
+2023-01-09 17:14:26,490 INFO [api_mis.py(__init__:21)] - 正在初始化mis审核文章url为：http://localhost:9090/mis/v1_0/articles
+2023-01-09 17:14:26,491 INFO [api_mis.py(api_mis_login:26)] - 正在调用mis登录接口，请求数据为：{'account': 19933333333, 'password': 123456}
+2023-01-09 17:14:26,495 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2023-01-09 17:14:26,495 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:14:26,499 INFO [api_mis.py(api_mis_search:32)] - 正在调用mis查询文章接口，请求数据为：{'title': 'test_title', 'channel': '数据库'}
+2023-01-09 17:14:26,502 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:14:26,505 INFO [api_mis.py(api_mis_audit:38)] - 正在调用mis审核文章接口，请求数据为：{'article_ids': [None], 'status': 2}
+2023-01-09 17:14:26,507 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:14:26,512 INFO [api_app.py(__init__:17)] - 正在初始化app登录url：http://localhost:9090/app/v1_0/authorizations
+2023-01-09 17:14:26,512 INFO [api_app.py(__init__:20)] - 正在初始化app查询频道文章url：http://localhost:9090/app/v1_0/articles
+2023-01-09 17:14:26,513 INFO [api_app.py(api_app_login:25)] - 正在调用app登录接口，请求数据为：{'mobile': 19933333333, 'code': 123456}
+2023-01-09 17:14:26,516 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2023-01-09 17:14:26,516 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:14:26,521 INFO [api_app.py(api_app_article:31)] - 正在调用app查询频道文章接口，请求数据为：{'channel_id': 7, 'timestamp': 1673255666, 'with_top': 1}
+2023-01-09 17:14:26,524 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:14:26,530 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2023-01-09 17:14:26,531 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:14:26,538 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:14:26,544 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:14:26,549 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:20:06,715 INFO [api_mp.py(__init__:15)] - 正在初始化mp登录url为：http://localhost:9090/mp/v1_0/authorizations
+2023-01-09 17:20:06,715 INFO [api_mp.py(__init__:18)] - 正在初始化mp发布文章url为：http://localhost:9090/mp/v1_0/articles
+2023-01-09 17:20:06,717 INFO [api_mp.py(api_mp_login:23)] - 正在调用mp登录接口，请求数据为：{'mobile': 19933333333, 'code': 123456}
+2023-01-09 17:20:06,725 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2023-01-09 17:20:06,726 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:20:06,754 INFO [api_mp.py(api_mp_article:29)] - 正在调用mp发布文章接口，请求数据为：{'title': 'test_title', 'content': 'test_content', 'channel_id': 7, 'cover': {'type': 0, 'image': []}}
+2023-01-09 17:20:06,761 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:20:06,769 INFO [api_mis.py(__init__:15)] - 正在初始化mis登录url为：http://localhost:9090/mis/v1_0/authorizations
+2023-01-09 17:20:06,769 INFO [api_mis.py(__init__:18)] - 正在初始化mis查询文章url为：http://localhost:9090/mis/v1_0/articles
+2023-01-09 17:20:06,770 INFO [api_mis.py(__init__:21)] - 正在初始化mis审核文章url为：http://localhost:9090/mis/v1_0/articles
+2023-01-09 17:20:06,772 INFO [api_mis.py(api_mis_login:26)] - 正在调用mis登录接口，请求数据为：{'account': 19933333333, 'password': 123456}
+2023-01-09 17:20:06,779 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2023-01-09 17:20:06,780 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:20:06,786 INFO [api_mis.py(api_mis_search:32)] - 正在调用mis查询文章接口，请求数据为：{'title': 'test_title', 'channel': '数据库'}
+2023-01-09 17:20:06,790 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:20:06,794 INFO [api_mis.py(api_mis_audit:38)] - 正在调用mis审核文章接口，请求数据为：{'article_ids': [None], 'status': 2}
+2023-01-09 17:20:06,797 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:20:06,802 INFO [api_app.py(__init__:17)] - 正在初始化app登录url：http://localhost:9090/app/v1_0/authorizations
+2023-01-09 17:20:06,802 INFO [api_app.py(__init__:20)] - 正在初始化app查询频道文章url：http://localhost:9090/app/v1_0/articles
+2023-01-09 17:20:06,803 INFO [api_app.py(api_app_login:25)] - 正在调用app登录接口，请求数据为：{'mobile': 19933333333, 'code': 123456}
+2023-01-09 17:20:06,806 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2023-01-09 17:20:06,806 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:20:06,811 INFO [api_app.py(api_app_article:31)] - 正在调用app查询频道文章接口，请求数据为：{'channel_id': 7, 'timestamp': 1673256006, 'with_top': 1}
+2023-01-09 17:20:06,814 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:20:06,818 INFO [api_bms.py(__init__:15)] - 正在初始化bms登录url为：http://localhost:9090/bms/login
+2023-01-09 17:20:06,818 INFO [api_bms.py(__init__:18)] - 正在初始化bms首页url为：http://localhost:9090/bms/index
+2023-01-09 17:20:06,818 INFO [api_bms.py(__init__:21)] - 正在初始化bms获取用户信息url为：http://localhost:9090/bms/profile
+2023-01-09 17:20:06,819 INFO [api_bms.py(__init__:24)] - 正在初始化bms登出url为：http://localhost:9090/bms/logout
+2023-01-09 17:20:06,819 INFO [api_bms.py(api_bms_login:29)] - 正在调用bms登录接口，请求数据为：{'mobile': 19933333333, 'code': 123456}
+2023-01-09 17:20:06,822 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2023-01-09 17:20:06,823 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:20:06,826 INFO [api_bms.py(api_bms_index:35)] - 正在调用bms首页接口，请求数据为：{}
+2023-01-09 17:20:06,829 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:20:06,832 INFO [api_bms.py(api_bms_profile:41)] - 正在调用bms获取用户信息接口，请求数据为：{'profile': 1}
+2023-01-09 17:20:06,835 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:20:06,838 INFO [api_bms.py(api_bms_logout:47)] - 正在调用bms登出接口，请求数据为：{}
+2023-01-09 17:20:06,841 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:25:32,992 INFO [api_bms.py(__init__:15)] - 正在初始化bms登录url为：http://localhost:9090/bms/login
+2023-01-09 17:25:32,992 INFO [api_bms.py(__init__:18)] - 正在初始化bms首页url为：http://localhost:9090/bms/index
+2023-01-09 17:25:32,993 INFO [api_bms.py(__init__:21)] - 正在初始化bms获取用户信息url为：http://localhost:9090/bms/profile
+2023-01-09 17:25:32,993 INFO [api_bms.py(__init__:24)] - 正在初始化bms登出url为：http://localhost:9090/bms/logout
+2023-01-09 17:25:32,995 INFO [api_bms.py(api_bms_login:29)] - 正在调用bms登录接口，请求数据为：{'mobile': 19933333333, 'code': 123456}
+2023-01-09 17:25:33,003 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2023-01-09 17:25:33,004 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:25:33,032 INFO [api_bms.py(api_bms_index:35)] - 正在调用bms首页接口，请求数据为：{}
+2023-01-09 17:25:33,035 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:25:33,052 INFO [api_bms.py(api_bms_profile:41)] - 正在调用bms获取用户信息接口，请求数据为：{'profile': 1}
+2023-01-09 17:25:33,055 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2023-01-09 17:25:33,058 INFO [api_bms.py(api_bms_logout:47)] - 正在调用bms登出接口，请求数据为：{}
+2023-01-09 17:25:33,062 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
